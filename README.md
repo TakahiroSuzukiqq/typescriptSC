@@ -2,14 +2,18 @@
 This app was originally a typescript "Todo List"-ish app using angular animation.     
 Followed the wonderful [Udemy](https://www.udemy.com) tutorial of "Learn Angular 5 from Scratch" by the instruction from [Gary Simon](https://www.udemy.com/user/garysimon2/).       
 Later on, having added other page and functions, such as displaying Live Cryptocurrency price using Crypto compare API.    
+Also, referred to Angular tutorial [Integrating Chart.js with Angular 5 with Data from an API](https://www.youtube.com/watch?v=RTzi5DS7On4) by [Gary Simon](http://www.garysimon.com/) on youtube which enables to fetch the API data and show it as a chart with chartjs.       
+    
               
 <img src="https://image.ibb.co/cd8K4G/Screen_Shot_2018_01_21_at_16_52_08.png" alt="Screen_Shot_2018_01_21_at_16_52_08" border="0">        
         
 <img src="https://image.ibb.co/gQKLBw/Screen_Shot_2018_01_21_at_16_48_51.png" alt="Screen_Shot_2018_01_21_at_16_48_51" border="0">    
     
-<img src="https://image.ibb.co/m1hU4G/Screen_Shot_2018_01_21_at_16_48_21.png" alt="Screen_Shot_2018_01_21_at_16_48_21" border="0">     
-     
-             
+<img src="https://image.ibb.co/m1hU4G/Screen_Shot_2018_01_21_at_16_48_21.png" alt="Screen_Shot_2018_01_21_at_16_48_21" border="0">    
+
+<img src="https://image.ibb.co/fnAHbw/Screen_Shot_2018_01_21_at_23_29_57.png" alt="Screen_Shot_2018_01_21_at_23_29_57" border="0">     
+       
+               
 # Demo    
 Used Github to deploy the project at this time. Visit [here](https://TakahiroSuzukiqq.github.io/typescriptSC/) to play around.    
 You can add items by clicking add button on the "home" page and can remove each item by clicking each box,      
@@ -54,7 +58,8 @@ And I don't take any responsibility regarding any cost or damage caused by tryin
 [The "@angular/compiler-cli" package was not properly installed.(ref 2)](https://github.com/angular/angular-cli/issues/7503)      
         
 [Angular HTTP request header](https://stackoverflow.com/questions/43205570/angular2-http-requestoptions-headers)   
-   
-      
+       
+[Error: Cannot find module '@angular-devkit/core'](https://github.com/angular/devkit/issues/256)      
+    
+        
 
-  

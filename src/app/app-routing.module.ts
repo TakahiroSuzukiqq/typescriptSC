@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {HomeComponent} from './home/home.component';              //#6 routing
-import {AboutComponent} from './about/about.component';           //#6 routing
-import {HttpTestComponent} from './http-test/http-test.component';
-import {CryptoComponent} from './crypto/crypto.component';
+import { HomeComponent } from './home/home.component';              //#6 routing
+import { AboutComponent } from './about/about.component';           //#6 routing
+import { HttpTestComponent } from './http-test/http-test.component';
+import { CryptoComponent } from './crypto/crypto.component';
+import { WeatherComponent } from './weather/weather.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,12 @@ const routes: Routes = [
   {
     path: 'crypto',
     component: CryptoComponent
+  },
+  {
+    path: 'weather',
+    component: WeatherComponent
   }
+  
 ];
 
 @NgModule({
