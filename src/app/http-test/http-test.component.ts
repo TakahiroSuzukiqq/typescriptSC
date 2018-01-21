@@ -3,7 +3,7 @@ import { HttpTestService } from '../http-test.service';
 
 @Component({
   selector: 'app-http-test',
-  templateUrl: './http-test.component.html',
+  //templateUrl: './http-test.component.html',
   styleUrls: ['./http-test.component.scss'],
   template: `
   <button (click)="onTestGet()">Test Get Request</button><br>

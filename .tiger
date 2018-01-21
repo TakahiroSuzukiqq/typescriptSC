@@ -17,8 +17,8 @@ $ ng build
    OR     
 $ ng build --prod                                       #lots of optimization, more smaller and faster by about 85%(e.g. 3.3MB -> 365KB)
 $ npm install -g angular-cli-ghpages   
-$ ng build --prod --base-href="https://TakahiroSuzukiqq.github.io/typescript-pf-tt/"
-$ angular-cli-ghpages                                   #to run the page
+$ ng build --prod --base-href="https://TakahiroSuzukiqq.github.io/typescriptSC/"
+$ angular-cli-ghpages                                   #to publish the page
 
 $ ng g component crypto
 $ ng g service crypto
