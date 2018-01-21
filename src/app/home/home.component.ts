@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, style, transition, animate, keyframes, query, stagger } from '@angular/animations';    //#5 Import angular animation specific functions
-import { DataService } from '../data.service';  //#7
+import { DataService } from '../services/data.service';  //#7
 
 @Component({
   selector: 'app-home',

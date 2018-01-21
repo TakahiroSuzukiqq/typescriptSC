@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';         //#6 This will give us the access to the route parameters
 import { Router } from '@angular/router';                 //#6.5 Import the router from the library, component based router navigation
-import { DataService } from '../data.service';  //#7
+import { DataService } from '../services/data.service';  //#7
 
 @Component({
   selector: 'app-about',

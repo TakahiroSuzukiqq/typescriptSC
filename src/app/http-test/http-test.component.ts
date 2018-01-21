@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpTestService } from '../http-test.service';
+import { HttpTestService } from '../services/http-test.service';
 
 @Component({
   selector: 'app-http-test',
