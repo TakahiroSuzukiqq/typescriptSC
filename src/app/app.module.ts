@@ -13,6 +13,9 @@ import { CryptoComponent } from './crypto/crypto.component';
 import { CryptoService } from './services/crypto.service';
 import { HttpTestService } from './services/http-test.service';
 import { HttpModule } from '@angular/http';
+import { WeatherComponent } from './weather/weather.component';
+import { WeatherService } from './services/weather.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,17 +23,19 @@ import { HttpModule } from '@angular/http';
     HomeComponent,
     AboutComponent,
     HttpTestComponent,
-    CryptoComponent
+    CryptoComponent,
+    WeatherComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,               //#4 Add form module to "import"
-    BrowserAnimationsModule,    //#5 Add BrowserAnimationModule
-    HttpModule
+    BrowserAnimationsModule,   //#5 Add BrowserAnimationModule
+    HttpModule,
+    HttpClientModule           //#As an alternative way of doing http request
   ],
   //providers: [],
-  providers: [DataService, CryptoService, HttpTestService],               //#7 To use DatasSrvice component
+  providers: [DataService, CryptoService, HttpTestService, WeatherService],               //#7 To use DatasSrvice component
   bootstrap: [AppComponent]
 })
 export class AppModule { }

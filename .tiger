@@ -26,3 +26,6 @@ $ ng g service crypto
 $ ng g c http-test
 $ ng g service http-test
 
+$ ng generate component weather
+$ ng generate service weather
+$ npm install chart.js --sav
