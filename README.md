@@ -11,7 +11,7 @@ Later on, having added other page and functions, such as displaying Live Cryptoc
      
              
 # Demo    
-Used Github to deploy the project at this time. Visit [here](https://takahirosuzukiqq.github.io/typescript-pf-tt/) to play around.    
+Used Github to deploy the project at this time. Visit [here](https://TakahiroSuzukiqq.github.io/typescriptSC/) to play around.    
 You can add items by clicking add button on the "home" page and can remove each item by clicking each box,      
 and your activity is reflected to the "about" page as well.         
       
