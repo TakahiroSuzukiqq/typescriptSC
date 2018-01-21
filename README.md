@@ -3,7 +3,8 @@ This app was originally a typescript "Todo List"-ish app using angular animation
 Followed the wonderful [Udemy](https://www.udemy.com) tutorial of "Learn Angular 5 from Scratch" by the instruction from [Gary Simon](https://www.udemy.com/user/garysimon2/).       
 Later on, having added other page and functions, such as displaying Live Cryptocurrency price using Crypto compare API.    
 Also, referred to Angular tutorial [Integrating Chart.js with Angular 5 with Data from an API](https://www.youtube.com/watch?v=RTzi5DS7On4) by [Gary Simon](http://www.garysimon.com/) on youtube which enables to fetch the API data and show it as a chart with chartjs.       
-    
+*All the API keys are the sample at this time.  
+  
               
 <img src="https://image.ibb.co/cd8K4G/Screen_Shot_2018_01_21_at_16_52_08.png" alt="Screen_Shot_2018_01_21_at_16_52_08" border="0">        
         
@@ -33,7 +34,9 @@ You don't have to command `--prod` when deploying it.
 Before commnd I would recommend you to check the meaning of it.          
 And I don't take any responsibility regarding any cost or damage caused by trying this project.       
             
-              
+If you use your own API keys please be sure not to expose them to Github.  
+
+                  
 # Ref.    
 [Data binding NgModel ref(Japanese)](https://qiita.com/shin_v1/items/c96382ed00da0c3ae13f)         
    
