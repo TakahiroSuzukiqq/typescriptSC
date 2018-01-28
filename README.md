@@ -49,6 +49,7 @@ If you use your own API keys please be sure not to expose them to Github.
 * [Fixer Foreign exchange rates and currency conversion API](angularjs.org)    
 * [【JavaScript入門】配列の「map」をマスターする3つのコツ！byマサト](https://www.sejuku.net/blog/21812)     
 * [配列の内容を順に出力するには？（ngFor）](https://www.buildinsider.net/web/angulartips/026)   
+* [Resolving problems with mixed content](https://help.github.com/articles/securing-your-github-pages-site-with-https/)   
        
               
 # Error  
