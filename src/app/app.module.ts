@@ -16,6 +16,8 @@ import { HttpModule } from '@angular/http';
 import { WeatherComponent } from './weather/weather.component';
 import { WeatherService } from './services/weather.service';
 import { HttpClientModule } from '@angular/common/http';
+import { ExchangeComponent } from './exchange/exchange.component';
+import { ExchangeService } from './services/exchange.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     HttpTestComponent,
     CryptoComponent,
-    WeatherComponent
+    WeatherComponent,
+    ExchangeComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,7 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule           //#As an alternative way of doing http request
   ],
   //providers: [],
-  providers: [DataService, CryptoService, HttpTestService, WeatherService],               //#7 To use DatasSrvice component
+  providers: [DataService, CryptoService, HttpTestService, WeatherService, ExchangeService],               //#7 To use DatasSrvice component
   bootstrap: [AppComponent]
 })
 export class AppModule { }
