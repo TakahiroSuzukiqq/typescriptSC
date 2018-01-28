@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';           //#6 routing
 import { HttpTestComponent } from './http-test/http-test.component';
 import { CryptoComponent } from './crypto/crypto.component';
 import { WeatherComponent } from './weather/weather.component';
+import { ExchangeComponent } from './exchange/exchange.component';
 
 
 const routes: Routes = [
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: 'weather',
     component: WeatherComponent
+  },
+  {
+    path: 'exchange',
+    component: ExchangeComponent
   }
   
 ];

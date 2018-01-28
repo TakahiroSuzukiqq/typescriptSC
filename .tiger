@@ -17,7 +17,7 @@ $ ng build
    OR     
 $ ng build --prod                                       #lots of optimization, more smaller and faster by about 85%(e.g. 3.3MB -> 365KB)
 $ npm install -g angular-cli-ghpages   
-$ ng build --prod --base-href="https://TakahiroSuzukiqq.github.io/typescriptSC/"
+$ ng build --prod --base-href="http://TakahiroSuzukiqq.github.io/typescriptSC/"
 $ angular-cli-ghpages                                   #to publish the page
 
 $ ng g component crypto
@@ -29,3 +29,8 @@ $ ng g service http-test
 $ ng generate component weather
 $ ng generate service weather
 $ npm install chart.js --sav
+
+$ ng generate component exchange
+$ ng generate service exchange
+
+$

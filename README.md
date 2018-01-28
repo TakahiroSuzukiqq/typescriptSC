@@ -38,31 +38,27 @@ If you use your own API keys please be sure not to expose them to Github.
 
                   
 # Ref.    
-[Data binding NgModel ref(Japanese)](https://qiita.com/shin_v1/items/c96382ed00da0c3ae13f)         
-   
+[Data binding NgModel ref(Japanese)](https://qiita.com/shin_v1/items/c96382ed00da0c3ae13f)          
 [ngFor ref(Japanese)](http://www.buildinsider.net/web/angulartips/026)       
-   
 [Library: @angular/animations](https://www.npmjs.com/package/@angular/animations)    
-
 [Github deployment ref.(Japanese)](https://qiita.com/Yuki_Yamashina/items/5d8208c450195b65344c)         
-
 [Angular 2 Tutorial (2016) - HTTP (GET and POST to RESTful Service) BY Maximilian Schwarzmüller - JAN 24, 2016](https://www.youtube.com/watch?v=L7xPwhwbcHE&t=1037s)   
-    
-[Angular CryptoCurrency Tutorial - Display Exchange Data with an API BY GARY SIMON - SEP 27, 2017](https://coursetro.com/posts/code/91/Angular-CryptoCurrency-Tutorial---Display-Exchange-Data-with-an-API)   
-  
+[Angular CryptoCurrency Tutorial - Display Exchange Data with an API BY GARY SIMON - SEP 27, 2017](https://coursetro.com/posts/code/91/Angular-CryptoCurrency-Tutorial---Display-Exchange-Data-with-an-API)    
 [JSON Test](http://www.jsontest.com)    
-  
 [Crypto Compare API](https://www.cryptocompare.com/api/)    
-    
+[Fixer Foreign exchange rates and currency conversion API](angularjs.org)    
+[【JavaScript入門】配列の「map」をマスターする3つのコツ！byマサト](https://www.sejuku.net/blog/21812)     
+[配列の内容を順に出力するには？（ngFor）](https://www.buildinsider.net/web/angulartips/026)   
        
+              
 # Error  
-[The "@angular/compiler-cli" package was not properly installed.(ref 1)](https://stackoverflow.com/questions/42925690/angular2-cli-error-angular-compiler-cli-package-was-not-properly-installed)     
-      
-[The "@angular/compiler-cli" package was not properly installed.(ref 2)](https://github.com/angular/angular-cli/issues/7503)      
-        
-[Angular HTTP request header](https://stackoverflow.com/questions/43205570/angular2-http-requestoptions-headers)   
-       
-[Error: Cannot find module '@angular-devkit/core'](https://github.com/angular/devkit/issues/256)      
+[The "@angular/compiler-cli" package was not properly installed.(ref 1)](https://stackoverflow.com/questions/42925690/angular2-cli-error-angular-compiler-cli-package-was-not-properly-installed)           
+[The "@angular/compiler-cli" package was not properly installed.(ref 2)](https://github.com/angular/angular-cli/issues/7503)        
+[Angular HTTP request header](https://stackoverflow.com/questions/43205570/angular2-http-requestoptions-headers)       
+[Error: Cannot find module '@angular-devkit/core'](https://github.com/angular/devkit/issues/256)        
+  
+   
+   
     
         
 
