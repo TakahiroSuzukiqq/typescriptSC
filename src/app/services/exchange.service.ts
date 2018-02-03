@@ -11,8 +11,8 @@ export class ExchangeService {
 
   getExchange() {
     return this._http.get('https://api.fixer.io/latest?base=USD')
-      // .map (result => this.result = result.json());
-      .map (result => result.json())
+      .map (result => this.result = result.json());
+      // .map (result => result.json())
   }
 
 }
