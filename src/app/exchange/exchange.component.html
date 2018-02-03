@@ -9,3 +9,19 @@
 <div id="getRates-container">
   <span class="left">{{ getRates }}</span>
 </div>
+
+<br>
+
+<div *ngIf="kawase">
+  <div id="kawase-container" *ngFor="let temp of objectKeys(this.kawase.rates)">
+    <!-- <span class="left">{{ temp }}</span>
+    <span class="right">
+      {{ kawase.rates.AUD | currency: 'USD':code }}
+    </span> -->
+    <span>
+      {{ temp }}
+    </span>
+    
+  </div>
+</div>
+

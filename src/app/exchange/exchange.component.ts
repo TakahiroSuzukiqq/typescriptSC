@@ -9,6 +9,7 @@ import { ExchangeService } from '../services/exchange.service';
 export class ExchangeComponent implements OnInit {
 
   objectKeys = Object.keys;
+    // kawase = [];
   kawase: any;
   getRates: string;
 
@@ -19,7 +20,9 @@ export class ExchangeComponent implements OnInit {
       .subscribe(result => {
         this.kawase = result;
         console.log(result)
+        console.log(this.kawase.rates)
       })
+
     this._atai.getExchange()
       .subscribe(
         rate => this.getRates = JSON.stringify(rate),
