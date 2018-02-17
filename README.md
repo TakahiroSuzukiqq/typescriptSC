@@ -2,9 +2,12 @@
 This app was originally a typescript "Todo List"-ish app using angular animation.     
 Followed the wonderful [Udemy](https://www.udemy.com) tutorial of "Learn Angular 5 from Scratch" by the instruction from [Gary Simon](https://www.udemy.com/user/garysimon2/).       
 Later on, having added other page and functions, such as displaying Live Cryptocurrency price using Crypto compare API.    
-Also, referred to Angular tutorial [Integrating Chart.js with Angular 5 with Data from an API](https://www.youtube.com/watch?v=RTzi5DS7On4) by [Gary Simon](http://www.garysimon.com/) on youtube which enables to fetch the API data and show it as a chart with chartjs.       
-*All the API keys are the sample at this time.  
-  
+Also, referred to Angular tutorial [Integrating Chart.js with Angular 5 with Data from an API](https://www.youtube.com/watch?v=RTzi5DS7On4) by [Gary Simon](http://www.garysimon.com/) on youtube which enables to fetch the API data and show it as a chart with chartjs.     
+*All the API keys are the sample at this time.    
+   
+Plus, added imageUploder function using Firebase function by following below tutorial in the `Ref.`. You can upload image files to Firebase storage by using Firebase function created seperately.   
+To avoid any troubles I just convert the function url with the word so you could not perform it.           
+    
               
 <img src="https://image.ibb.co/cd8K4G/Screen_Shot_2018_01_21_at_16_52_08.png" alt="Screen_Shot_2018_01_21_at_16_52_08" border="0">        
         
@@ -34,9 +37,20 @@ You don't have to command `--prod` when deploying it.
 Before commnd I would recommend you to check the meaning of it.          
 And I don't take any responsibility regarding any cost or damage caused by trying this project.       
             
-If you use your own API keys please be sure not to expose them to Github.  
-
-                  
+If you use your own API keys please be sure not to expose them to Github.   
+   
+Also please use your function in the HTTP request of onUpload method.  
+````    
+ onUpload(){    
+    const fd = new FormData();  
+    fd.append('image', this.selectedFile, this.selectedFile.name);  
+    this.http.post('YOUR_FIREBASE_FUNCTION', fd, {  
+      reportProgress: true,  
+      observe: 'events'  
+    })    
+````    
+  
+                    
 # Ref.    
 * [Data binding NgModel ref(Japanese)](https://qiita.com/shin_v1/items/c96382ed00da0c3ae13f)          
 * [ngFor ref(Japanese)](http://www.buildinsider.net/web/angulartips/026)       
@@ -50,8 +64,12 @@ If you use your own API keys please be sure not to expose them to Github.
 * [【JavaScript入門】配列の「map」をマスターする3つのコツ！byマサト](https://www.sejuku.net/blog/21812)     
 * [配列の内容を順に出力するには？（ngFor）](https://www.buildinsider.net/web/angulartips/026)   
 * [Resolving problems with mixed content](https://help.github.com/articles/securing-your-github-pages-site-with-https/)   
-       
-              
+* [Firebase Cloud Functions - Resizing Images after Upload by Academind](https://www.youtube.com/watch?v=YGsmWKMMiYs&t=14s)  
+* [Firebase imageUploader function](https://github.com/TakahiroSuzukiqq/APIwtFb)  
+* [Creating a REST API with Cloud Functions by Academind](https://academind.com/learn/firebase/cloud-functions/creating-a-rest-endpoint-with-cloud-functions)    
+* [Angular Image Upload Made Easy by Academind](https://www.youtube.com/watch?v=YkvqLNcJz3Y)      
+        
+                   
 # Error  
 * [The "@angular/compiler-cli" package was not properly installed.(ref 1)](https://stackoverflow.com/questions/42925690/angular2-cli-error-angular-compiler-cli-package-was-not-properly-installed)           
 * [The "@angular/compiler-cli" package was not properly installed.(ref 2)](https://github.com/angular/angular-cli/issues/7503)        

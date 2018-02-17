@@ -6,6 +6,7 @@ import { HttpTestComponent } from './http-test/http-test.component';
 import { CryptoComponent } from './crypto/crypto.component';
 import { WeatherComponent } from './weather/weather.component';
 import { ExchangeComponent } from './exchange/exchange.component';
+import { IuploaderComponent } from './iuploader/iuploader.component';
 
 
 const routes: Routes = [
@@ -32,6 +33,10 @@ const routes: Routes = [
   {
     path: 'exchange',
     component: ExchangeComponent
+  },
+  {
+    path: 'iuploader',
+    component: IuploaderComponent
   }
   
 ];
