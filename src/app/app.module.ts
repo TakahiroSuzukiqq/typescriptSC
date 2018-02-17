@@ -18,6 +18,7 @@ import { WeatherService } from './services/weather.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ExchangeComponent } from './exchange/exchange.component';
 import { ExchangeService } from './services/exchange.service';
+import { IuploaderComponent } from './iuploader/iuploader.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ExchangeService } from './services/exchange.service';
     HttpTestComponent,
     CryptoComponent,
     WeatherComponent,
-    ExchangeComponent
+    ExchangeComponent,
+    IuploaderComponent
   ],
   imports: [
     BrowserModule,

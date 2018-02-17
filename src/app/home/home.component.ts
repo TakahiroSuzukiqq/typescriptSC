@@ -41,6 +41,7 @@ import { DataService } from '../services/data.service';  //#7
   ]
 
 })
+
 export class HomeComponent implements OnInit {
   
   // #To add item counterConmopent
@@ -52,7 +53,9 @@ export class HomeComponent implements OnInit {
   goalText: string = 'My first life goal';                                          //#3
   //goals = ['My first life goal', 'I want to climb a mountain', 'Go ice skiing'];  //#5
   goals = [];                                                                       //#7
-  constructor(private _data: DataService) { }                                       //#7 (private _data: DataService): To create the instance called "_data" to DataService, through dependency injection
+  
+  //#7 (private _data: DataService): To create the instance called "_data" to DataService, through dependency injection
+  constructor(private _data: DataService) {}
   
   //#This one is a lifecycle hook which is initiated when the app loads or the component itself loads
   ngOnInit() {
